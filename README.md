@@ -12,14 +12,16 @@ Create a map using Leaflet that plots all of the earthquakes from your data set 
 
    * Create a legend that will provide context for your map data.
 
-   * Your visualization should look something like the map above.
+   * Your visualization should look something like the map above.<hr>
+[Level 1 webpage](Leaflet-Step-1/index.html)
 ### Level 2: More Data
 * Plot a second data set on our map.
 
 * Add a number of base maps to choose from as well as separate out our two different data sets into overlays that can be turned on and off independently.
 
-* Add layer controls to our map.<br>
-
+* Add layer controls to our map.<hr>
+[Level 2 webpage](Leaflet-Step-2/index.html)
+<hr>
 [Checkout the webpage here!](https://zibozhao0804.github.io/leaflet-challenge/)
 
 
