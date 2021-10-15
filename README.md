@@ -18,5 +18,9 @@ Create a map using Leaflet that plots all of the earthquakes from your data set 
 
 * Add a number of base maps to choose from as well as separate out our two different data sets into overlays that can be turned on and off independently.
 
-* Add layer controls to our map.
+* Add layer controls to our map.<br>
+
+[Checkout the webpage here!](https://zibozhao0804.github.io/leaflet-challenge/)
+
+
 
