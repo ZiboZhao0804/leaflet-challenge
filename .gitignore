@@ -7,8 +7,8 @@ __pycache__/
 *.so
 
 # config.js
-Leaflet-Step-1/static/js/config.js
-Leaflet-Step-2/static/js/config.js
+config.js
+
 #DS.Store
 .DS_Store
 
