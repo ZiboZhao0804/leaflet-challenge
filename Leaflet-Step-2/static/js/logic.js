@@ -90,7 +90,7 @@ d3.json(queryUrl).then(function(data) {
   var myMap = L.map("map", {
       center: [15.5994, -28.6731],
       zoom: 3,
-      layers: [satellitemap, markerLayer,plateLayer]
+      layers: [satellitemap, markerLayer]
   }); 
   // Create a layer control containing our baseMaps
   // Be sure to add an overlay Layer containing the earthquake GeoJSON
