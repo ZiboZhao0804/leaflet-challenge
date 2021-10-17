@@ -13,7 +13,7 @@ L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?acce
     accessToken: API_KEY
   }).addTo(myMap);
 
-  function getColor(d) {
+function getColor(d) {
     return d > 90  ? '#E31A1C' :
            d > 70  ? '#FC4E2A' :
            d > 50   ? '#FD8D3C' :
@@ -24,11 +24,10 @@ L.tileLayer("https://api.mapbox.com/styles/v1/mapbox/{id}/tiles/{z}/{x}/{y}?acce
 
 var legend = L.control({position: 'bottomright'});
 
-legend.onAdd = function (map) {
+legend.onAdd = function () {
 
     var div = L.DomUtil.create('div', 'info legend'),
-        grades = [-10, 10, 30, 50, 70, 90],
-        labels = [];
+        grades = [-10, 10, 30, 50, 70, 90];
 
     // loop through our density intervals and generate a label with a colored square for each interval
     for (var i = 0; i < grades.length; i++) {
